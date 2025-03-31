@@ -76,3 +76,17 @@
   - 2025년 4월 6일 (목) 오전 10:00
 - 코딩테스트 마감일
   - 2025년 4월 22일 (수) 오후 11:59
+ 
+```
+{
+  "counselId": 1,
+  "appliedAt": "2022-10-18 21:37:00",
+  "name": "Member Kim",
+  "cellPhone": "010-1111-2222",
+  "email": "mail@abc.de",
+  "memo": "I hope to get a loan!",
+  "zipCode": "123456",
+  "address": "Somewhere in Gangnam-gu, Seoul",
+  "addressDeatil": "What Apartment No. 101, 1st floor No. 101"
+}
+```
