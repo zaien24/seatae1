@@ -13,37 +13,22 @@
 
 ## 개발 환경 
 
-## 기술 스택
-- JDK 11
-- Spring Boot 2.6.7
-- Spring Data JPA
-- Gradle
-- Handlebars
-- Lombok
-- Github
-- Docker
-- AWS EC2
-- Redis
-- MariaDB
-- Spock   
-- Testcontainers
-
 ## 기술 스택 <a name = "skill"></a>
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
 <br />
-- JDK 11
-- Spring Boot 2.6.7
-- Spring Data JPA
-- Gradle
-- Handlebars
-- Lombok
-- Github
-- Docker
-- AWS EC2
-- Redis
-- MariaDB
-- Spock   
++ JDK 11 </br>
++ Spring Boot 2.6.7 </br>
++ Spring Data JPA </br>
++ Gradle </br>
++ Handlebars </br>
++ Lombok </br>
++ Github </br>
++ Docker </br>
++ AWS EC2 </br>
++ Redis </br>
++ MariaDB </br>
++ Spock    </br>
 
 </details>
 
