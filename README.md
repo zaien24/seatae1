@@ -8,7 +8,9 @@
 테스트입니다.
 
 ## 📝 요구사항 <a name = "request"></a>
-
+<details>
+   <summary> 본문 확인 (👈 Click)</summary>
+<br />
 
   
 
@@ -47,8 +49,10 @@
 
 ## 참조 및 출처
 
-## FAQ
-## 📝 FAQ <a name = "faq"></a>
+## FAQ <a name = "faq"></a>
+<details>
+   <summary> 본문 확인 (👈 Click)</summary>
+<br />
 
 ## 제출 방식
 - 소스코드
