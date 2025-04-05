@@ -316,11 +316,10 @@
   <br>
   
   <ul>
-    <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제
-      <br>
-      <img src="https://github.com/user-attachments/assets/e09ea107-8940-4c5b-8599-018030d33b55" 
-            alt="시퀀스다이어그램" width="600">
+    <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제 
     </li> 
+    <img src="https://github.com/user-attachments/assets/e09ea107-8940-4c5b-8599-018030d33b55" 
+            alt="시퀀스다이어그램" width="600">
   </ul>
 
   <hr>
