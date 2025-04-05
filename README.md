@@ -167,7 +167,7 @@
   <li>공공데이터 기반의 <strong>학교 정보를 제공하는 API 호출</strong></li>
   <li><strong>CSV 파일 로드</strong> 및 댓글 리스트화</li>
   <li>
-    <strong>외부 학교 데이터 정제</strong>
+    <strong>공공데이터 기반의 학교 정보를 제공하는 API 호출 데이터 정제</strong>
     <ul>
       <li>행정구역명 정리</li>
       <li>학교명 형식 통일</li>
@@ -181,7 +181,7 @@
     </ul>
   </li>
   <li>
-    <strong>댓글 데이터와 외부 학교 데이터를 비교하여 통계 생성</strong>
+    <strong>댓글 데이터와 학교 데이터를 비교하여 통계 생성</strong>
     <ul>
       <li><strong>학교 구분</strong>: 초/중/고/대</li>
       <li><strong>행정구역 정보</strong> 일치 여부</li>
@@ -208,7 +208,6 @@
   <li>실행 파일: <code>app.jar</code></li>
   <li>입력 파일: <code>comments.csv</code></li>
 </ul>
-
 </details>
 
 
