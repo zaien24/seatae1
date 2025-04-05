@@ -265,35 +265,44 @@
 </details>
 
 
-<h2>🛠 보완 및 확장 가능성</h2>
+<h2>🧠 보완 및 확장 가능성</h2>
 <details>
-  <summary>본문 확인 (👈 Click)</summary>
-  <ul>
-    <li>
-      <strong>학교 데이터의 DB화:</strong><br>
-      커리어넷 API에서 수집한 학교 정보를 RDB 또는 NoSQL에 저장하여 재사용성과 조회 효율을 높일 수 있습니다.
-    </li>
-    <li>
-      <strong>디자인 패턴 적용:</strong><br>
-      Strategy, Factory, Template Method 패턴을 활용해 유연하고 유지보수하기 쉬운 구조로 개선 가능합니다.
-    </li>
-    <li>
-      <strong>유사도 알고리즘 개선:</strong><br>
-      Levenshtein 외에 Jaro-Winkler, Cosine Similarity 등 대체 알고리즘 고려로 성능 최적화 가능
-    </li>
-    <li>
-      <strong>비동기 처리 및 성능 최적화:</strong><br>
-      Java 병렬 스트림, CompletableFuture 또는 Spring Batch를 통한 대용량 댓글 처리 가속화
-    </li>
-    <li>
-      <strong>CSV 업로드 UI 연동:</strong><br>
-      웹 UI를 통해 CSV 업로드 및 결과 확인 기능 제공 (Spring Boot + Thymeleaf 또는 React 활용)
-    </li>
-    <li>
-      <strong>분석 결과 시각화:</strong><br>
-      학교별 분포, 지역 통계, 카운트 순위 등을 차트로 시각화 (Chart.js, ECharts 등)
-    </li>
-  </ul>
-</details>
+<summary>본문 확인 (👈 Click)</summary>
 
+<h3>1. 학교 데이터의 DB화</h3>
+<ul>
+  <li>커리어넷 API에서 수집한 학교 정보를 RDB 또는 NoSQL에 저장하면 재사용성과 조회 효율이 높아집니다.</li>
+  <li>정제 및 필터링된 데이터를 기반으로 한 통계 생성 및 UI 연계도 유리합니다.</li>
+</ul>
+
+<h3>2. 디자인 패턴 적용</h3>
+<ul>
+  <li>Strategy 패턴을 활용해 다양한 유사도 알고리즘에 유연하게 대응할 수 있습니다.</li>
+  <li>Factory 패턴을 통해 학교 유형별 객체 생성을 유연화할 수 있습니다.</li>
+  <li>Template Method 패턴으로 파일 처리/정제 흐름의 공통 로직을 관리할 수 있습니다.</li>
+</ul>
+
+<h3>3. 유사도 알고리즘 개선</h3>
+<ul>
+  <li>LevenshteinDistance 외에도 Jaro-Winkler, Cosine Similarity 등 다양한 알고리즘을 테스트하여 성능을 최적화할 수 있습니다.</li>
+</ul>
+
+<h3>4. 비동기 처리 및 성능 최적화</h3>
+<ul>
+  <li>Java 병렬 스트림, CompletableFuture, ExecutorService 또는 Spring Batch를 사용하여 대용량 데이터 처리 속도를 개선할 수 있습니다.</li>
+</ul>
+
+<h3>5. CSV 업로드 UI 연동</h3>
+<ul>
+  <li>CSV 파일을 업로드할 수 있는 웹 UI를 제공하면 사용 편의성이 향상됩니다.</li>
+  <li>Spring Boot + Thymeleaf 또는 React 기반 프론트엔드와 연동 가능합니다.</li>
+</ul>
+
+<h3>6. 분석 결과 시각화</h3>
+<ul>
+  <li>학교별 분포, 지역별 통계, 상위 랭킹 등 다양한 시각화를 통해 데이터 활용도를 높일 수 있습니다.</li>
+  <li>Chart.js, Apache ECharts 등의 오픈소스 라이브러리를 활용할 수 있습니다.</li>
+</ul>
+
+</details>
 
