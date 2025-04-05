@@ -222,7 +222,7 @@
 <details>
 <summary>본문 확인 (👈 Click)</summary>
 
-<h3>개발 환경</h3>
+<h3>1. 개발 환경</h3>
 <ul>
   <li><strong>IDE:</strong> IntelliJ IDEA</li>
   <li><strong>Java 버전:</strong> Java 17</li>
@@ -231,7 +231,7 @@
   <li><strong>기타 도구:</strong> Lombok</li>
 </ul>
 
-<h3>오픈 소스 및 라이브러리</h3>
+<h3>2.오픈 소스 및 라이브러리</h3>
 <ul>
   <li><strong>OpenCSV 5.7.1:</strong> CSV 파일 파싱 및 매핑 처리</li>
   <li>
@@ -249,15 +249,15 @@
 <details>
   <summary>본문 확인 (👈 Click)</summary>
   <ul>
-    <li>1. 공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제
+    <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제
       <br>
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
     </li>
-    <li>2. CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
+    <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
       <br>
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
     </li>
-    <li>3. 댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성
+    <li>댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성
       <br>
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
     </li>
