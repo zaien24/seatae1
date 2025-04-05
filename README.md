@@ -107,7 +107,6 @@
   <li>API 사용을 위한 인증키를 신청합니다.</li>
   <li>선정된 API의 응답 형식과 활용 가능성을 테스트합니다.</li>
   <li>
-    <ul>
       <li>
         <details>
       <summary>📸 API분석1(Click)</summary>
@@ -129,7 +128,6 @@
       <img src="https://github.com/user-attachments/assets/ca449012-3446-45ad-9685-c8c5c53efe28" alt="API테스트" width="600">
       </details>
       </li>
-    </ul>
   </li>
 </ul>
 
