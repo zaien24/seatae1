@@ -103,7 +103,8 @@
 <h3>1. 요구사항 분석</h3>
 <h3>2. 전체 학교 정보를 가져올 API 선정</h3>
 <ul>
-  <li>학교 정보를 제공하는 API를 탐색하고 선정합니다.</li>
+  <li>학교 정보를 제공하는 API를 탐색하고 선정합니다.</br>(커리어넷 -  https://www.career.go.kr/cnet/front/openapi/openApiMainCenter.do)
+  </li>
   <li>API 사용을 위한 인증키를 신청합니다.</li>
   <li>선정된 API의 응답 형식과 활용 가능성을 테스트합니다.</li>
   <li>
