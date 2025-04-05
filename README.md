@@ -81,13 +81,14 @@
   <li>
     <p>정확한 학교명 추출을 위해 <strong>텍스트 정제</strong> 및 <strong>패턴 인식</strong> 처리가 필요합니다.<br>예: 이모지 제거, 괄호 제거, 개행 문자 정리 등</p>
   </li>
+  <li>
+    <details>
+      <summary>📸 댓글 분석 이미지 (Click)</summary>
+      <br>
+      <img src="https://github.com/user-attachments/assets/344ae0a2-bb6f-4b34-a0d0-f5838976c56f" alt="댓글분석" width="600">
+      </details>
+  </li>
 </ul>
-
-<details>
-<summary>📸 댓글 분석 이미지 (Click)</summary>
-<br>
-<img src="https://github.com/user-attachments/assets/344ae0a2-bb6f-4b34-a0d0-f5838976c56f" alt="댓글분석" width="600">
-</details>
 
 </details>
 
