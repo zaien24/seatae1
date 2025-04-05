@@ -92,6 +92,10 @@
 
 </details>
 
+
+
+
+
 <h2>🛠 프로젝트 설계 (WBS)</h2>
 <details>
 <summary>본문 확인 (👈 Click)</summary>
@@ -102,6 +106,31 @@
   <li>학교 정보를 제공하는 API를 탐색하고 선정합니다.</li>
   <li>API 사용을 위한 인증키를 신청합니다.</li>
   <li>선정된 API의 응답 형식과 활용 가능성을 테스트합니다.</li>
+  <li>
+    <ul>
+      <li>
+        <details>
+      <summary>📸 API분석1(Click)</summary>
+      <br>
+      <img src="https://github.com/user-attachments/assets/344ae0a2-bb6f-4b34-a0d0-f5838976c56f" alt="API분석1" width="600">
+      </details>
+      </li>
+      <li>
+        <details>
+      <summary>📸 API분석2 (Click)</summary>
+      <br>
+      <img src="https://github.com/user-attachments/assets/38188b4a-fbf0-4514-a6d5-7d394d54bcd8" alt="API분석1" width="600">
+      </details>
+      </li>
+      <li>
+        <details>
+      <summary>📸 API테스트 (Click)</summary>
+      <br>
+      <img src="https://github.com/user-attachments/assets/ca449012-3446-45ad-9685-c8c5c53efe28" alt="API테스트" width="600">
+      </details>
+      </li>
+    </ul>
+  </li>
 </ul>
 
 <h3>3. 기능 및 정책 정의 (Flow Chart 포함 예정)</h3>
