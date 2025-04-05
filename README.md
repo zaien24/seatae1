@@ -309,7 +309,7 @@
 
 
 
-<h2>📄 기능 구현 프로세스</h2>
+<h2>💡 기능 구현 프로세스</h2>
 <details>
   <summary>본문 확인 (👈 Click)</summary>
 
@@ -352,7 +352,7 @@
 
 
 
-<h2>📄 결과 확인 방법</h2>
+<h2>🎁 결과 확인 방법</h2>
 <details>
   <summary>본문 확인 (👈 Click)</summary>
   <ul>
@@ -383,7 +383,7 @@
 
 
 
-<h2>🧠 보완 및 확장 가능성</h2>
+<h2>🚀 보완 및 확장 가능성</h2>
 <details>
   <summary>본문 확인 (👈 Click)</summary>
   
@@ -436,7 +436,7 @@
 
 
 
-<h2>🧾 프로젝트 마무리 및 회고</h2>
+<h2> ✍️ 프로젝트 마무리 및 회고</h2>
 <details>
 <summary>본문 확인 (👈 Click)</summary>
 
