@@ -1,4 +1,4 @@
-<h2>📂 프로젝트 설명<a name = "project"></a></h2>
+<h2>📝 프로젝트 설명<a name = "project"></a></h2>
 <details>
   <summary>본문 확인 (👈 Click)</summary>
 
@@ -73,7 +73,7 @@
 
 
 
-## 📝 [목차](#index) <a name = "index"></a>
+## 📂 [목차](#index) <a name = "index"></a>
 - [프로젝트 설명](#project)
 - [요구사항 분석](#request)
 - [프로젝트 설계 (WBS)](#process)
