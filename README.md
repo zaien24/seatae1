@@ -156,7 +156,7 @@
 <ul>
 </ul>
 <details>
-      <summary>sequenceDiagram</summary>
+      <summary>    ○sequenceDiagram</summary>
       <br>
 
 ```mermaid
