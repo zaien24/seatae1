@@ -334,7 +334,7 @@
 
 
 
-<h2>💡 기능 구현 프로세스<a name = "func"></a> </h2>  (#index)
+<h2>💡 기능 구현 프로세스<a name = "func"></a> </h2> 
 <details>
   <summary>본문 확인 (👈 Click)</summary>
 
