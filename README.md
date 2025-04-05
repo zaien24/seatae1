@@ -58,7 +58,6 @@
 <details>
 <summary>본문 확인 (👈 Click)</summary>
 
-<h3>1. 댓글 기반 학교 카운팅 서비스 요구사항</h3>
 <ul>
   <li>
     <p>주어진 댓글 리스트(CSV 파일)에서 대한민국 내 유효한 <strong>학교 이름</strong>을 추출하고, 이를 <strong>학교별로 등장 횟수</strong>를 집계하는 프로그램을 작성해야 합니다.</p>
