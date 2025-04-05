@@ -222,7 +222,7 @@
 <details>
 <summary>본문 확인 (👈 Click)</summary>
 
-<h3>1️개발 환경</h3>
+<h3>개발 환경</h3>
 <ul>
   <li><strong>IDE:</strong> IntelliJ IDEA</li>
   <li><strong>Java 버전:</strong> Java 17</li>
