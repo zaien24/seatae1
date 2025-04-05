@@ -108,19 +108,7 @@
   <li>선정된 API의 응답 형식과 활용 가능성을 테스트합니다.</li>
   <li>
       <ul>
-        <details>
-          <summary>📸 API분석1(Click)</summary>
-      <br>
-      <img src="https://github.com/user-attachments/assets/36f3e71e-5393-43eb-9af6-ae3703fd1bd7" alt="API분석1" width="600">
-          <summary>📸 API분석2 (Click)</summary>
-      <br>
-      <img src="https://github.com/user-attachments/assets/38188b4a-fbf0-4514-a6d5-7d394d54bcd8" alt="API분석1" width="600">
-          <summary>📸 API분석2 (Click)</summary>
-      <br>
-      <img src="https://github.com/user-attachments/assets/38188b4a-fbf0-4514-a6d5-7d394d54bcd8" alt="API분석1" width="600">
-        </details>
-      </ul>
-      <li>
+        <li>
         <details>
       <summary>📸 API분석1(Click)</summary>
       <br>
@@ -141,6 +129,8 @@
       <img src="https://github.com/user-attachments/assets/ca449012-3446-45ad-9685-c8c5c53efe28" alt="API테스트" width="600">
       </details>
       </li>
+      </ul>
+      
   </li>
 </ul>
 
