@@ -167,7 +167,7 @@
       <ul>
         <li> 
           <details>
-            <summary>📸 API분석1(Click)</summary>
+            <summary>📸 API분석1 (Click)</summary>
             <br>
             <img src="https://github.com/user-attachments/assets/36f3e71e-5393-43eb-9af6-ae3703fd1bd7" alt="API분석1" width="600">
           </details>
@@ -416,6 +416,26 @@
       <ul>
         <li><code>java -jar app.jar</code> 실행한 위치 기준으로
         <li><code>/upload/csv/comments.csv</code> 경로에 파일 배치</li>
+      </ul>
+    </li>
+    <li> 결과 이미지
+      <ul>
+        <li> 
+          <details>
+            <summary>📸 프로젝트 실행방법 이미지 (Click)</summary>
+            <br>
+            <img src="https://github.com/user-attachments/assets/1207efb8-91ed-4b35-98c8-9d2423ff4432" 
+                  alt="프로젝트 실행방법 이미지" width="600">
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>📸 jar파일, csv파일 위치 이미지 (Click)</summary>
+            <br>
+            <img src="https://github.com/user-attachments/assets/a558ab5d-ca44-4ec6-9b50-25964d0334fa" 
+                  alt="jar파일, csv파일 위치 이미지" width="600">
+          </details>
+        </li>
       </ul>
     </li>
   </ul>
