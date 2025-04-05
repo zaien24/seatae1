@@ -151,6 +151,12 @@
     <li>댓글 데이터 정제</li>
     <li>정제된 댓글과 학교 정보를 매칭하여 통계 생성</li>
     <li>결과 파일(result.txt) 생성</li>
+    <li>
+        <details>
+      <summary>📸 시퀀스다이어그램 (Click)</summary>
+      <br>
+      <img src="https://github.com/user-attachments/assets/c5fdd530-5f35-42d5-b6de-393cf267fcbf" alt="시퀀스다이어그램" width="600">
+      </details>
   </ul>
 </ul>
 <ul>
