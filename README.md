@@ -162,20 +162,6 @@
 <ul>
 </ul>
 
-```mermaid
-flowchart TD
-    A[Client: 서비스 실행 요청] --> B[Server: 학교 정보 API 호출]
-    B --> C[커리어넷 API: 학교 데이터 응답]
-    C --> D[Server: 학교 정보 정제]
-    D --> E[Server: 댓글 CSV 파일 로드]
-    E --> F[댓글 리스트 반환]
-    F --> G[Server: 댓글 데이터 정제]
-    G --> H[학교 데이터 + 댓글 매칭]
-    H --> I[통계 집계]
-    I --> J[결과 파일 result.txt 생성]
-    J --> K[Client에게 결과 전달]
-```
-
 <h3>📌 4. 개발</h3>
 <ul>
   <li><strong>공통 및 예외 처리 포함</strong></li>
