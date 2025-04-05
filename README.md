@@ -265,101 +265,35 @@
 </details>
 
 
-
-
-
-## 📝 [목차](#index) <a name = "index"></a>
-- [요구사항](#request)
-- [프로세스](#process)
-- [개발 환경](#env)
-- [기술 스택](#skill)
-- [FAQ](#faq)
-
-## 요구사항 <a name = "request"></a>
-## 프로세스 <a name = "process"></a>  
-## 기능 목록 
-## 개발 환경 <a name = "env"></a>
-## 기술 스택 <a name = "skill"></a>
+<h2>🛠 보완 및 확장 가능성</h2>
 <details>
-   <summary> 본문 확인 (👈 Click)</summary>
-<br />
-+ JDK 11 </br>
-+ Spring Boot 2.6.7 </br>
-+ Spring Data JPA </br>
-+ Gradle </br>
-+ Handlebars </br>
-+ Lombok </br>
-+ Github </br>
-+ Docker </br>
-+ AWS EC2 </br>
-+ Redis </br>
-+ MariaDB </br>
-+ Spock    </br>
-
+  <summary>본문 확인 (👈 Click)</summary>
+  <ul>
+    <li>
+      <strong>학교 데이터의 DB화:</strong><br>
+      커리어넷 API에서 수집한 학교 정보를 RDB 또는 NoSQL에 저장하여 재사용성과 조회 효율을 높일 수 있습니다.
+    </li>
+    <li>
+      <strong>디자인 패턴 적용:</strong><br>
+      Strategy, Factory, Template Method 패턴을 활용해 유연하고 유지보수하기 쉬운 구조로 개선 가능합니다.
+    </li>
+    <li>
+      <strong>유사도 알고리즘 개선:</strong><br>
+      Levenshtein 외에 Jaro-Winkler, Cosine Similarity 등 대체 알고리즘 고려로 성능 최적화 가능
+    </li>
+    <li>
+      <strong>비동기 처리 및 성능 최적화:</strong><br>
+      Java 병렬 스트림, CompletableFuture 또는 Spring Batch를 통한 대용량 댓글 처리 가속화
+    </li>
+    <li>
+      <strong>CSV 업로드 UI 연동:</strong><br>
+      웹 UI를 통해 CSV 업로드 및 결과 확인 기능 제공 (Spring Boot + Thymeleaf 또는 React 활용)
+    </li>
+    <li>
+      <strong>분석 결과 시각화:</strong><br>
+      학교별 분포, 지역 통계, 카운트 순위 등을 차트로 시각화 (Chart.js, ECharts 등)
+    </li>
+  </ul>
 </details>
 
-<br>
 
-## 아키텍쳐
-
-## DB 
-
-## 테스트 및 모니터링
-
-## 왜 이 기술을 사용했는가?
-
-## 코드실행방법
-
-## Result   
-
-## 참조 및 출처
-
-## FAQ <a name = "faq"></a>
-<details>
-   <summary> 본문 확인 (👈 Click)</summary>
-<br />
-취미 생활 및 자기계발 활동에 금전적으로 투자하는 사람들이 지속적으로 증가하고 있으며, 20 ~ 30대 대상 685명 설문조사 결과 사람들은 취미를 혼자보다 
-
-</details>
-
-<br>
-
-## 제출 방식
-- 소스코드
-  - 작성한 소스코드를 본인의 Github에 올리고 해당 URL을 문서 파일에 명시하여 채용사이트에 업로드 합니다.
-  - 소스를 압축해서 업로드하지 마세요.
-  - 과제 소스가 올라가 있는 github의 해당 repository는 public으로 설정해 두셔야 코드레벨 평가가 가능합니다.
-  - private로 설정되어 접근이 불가능한 경우 코드레벨 평가를 진행하지 않습니다.
-
-- 기능 점검을 위한 빌드 결과물
-  - 빌드 결과물을 Executable jar 형태로 만들어 위 Github에 업로드 하시고 README에 다운로드 링크 정보를 넣어주시기 바랍니다.
-  - Github의 용량 문제로 업로드가 안되는 경우 다른 곳(개인 구글 드라이브 등)에 업로드 한 후 해당 다운로드 링크 정보를 README에 넣어주셔도 됩니다.
-  - 해당 파일을 다운로드 및 실행(실행 예: java -jar kakaobank.jar)하여 요구 사항 기능 검증을 진행하게 됩니다.
-  - 해당 파일을 다운로드할 수 없거나 실행시 에러가 발생하는 경우에는 기능 점검을 진행하지 않습니다.
-  - 과제 제출 전 해당 실행파일 다운로드 및 정상 동작 여부를 체크해 주시기 바랍니다.
-
-## 진행 일정
-- 코딩테스트 출제일
-  - 2025년 4월 6일 (목) 오전 10:00
-- 코딩테스트 마감일
-  - 2025년 4월 22일 (수) 오후 11:59
- 
-```
-{
-  "counselId": 1,
-  "appliedAt": "2022-10-18 21:37:00",
-  "name": "Member Kim",
-  "cellPhone": "010-1111-2222",
-  "email": "mail@abc.de",
-  "memo": "I hope to get a loan!",
-  "zipCode": "123456",
-  "address": "Somewhere in Gangnam-gu, Seoul",
-  "addressDeatil": "What Apartment No. 101, 1st floor No. 101"
-}
-```
-
-<!-- Mermaid.js 로딩 스크립트 추가 -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
