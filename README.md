@@ -295,7 +295,7 @@
 
 
 
-<h2>💻 개발 환경 및 기술 스택<a name = "skill"></a> </h2>
+<h2>💻 개발 환경 및 기술 스택, 오픈소스 및 라이브러리<a name = "skill"></a> </h2>
 <details>
 <summary>본문 확인 (👈 Click)</summary>
 
