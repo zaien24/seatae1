@@ -83,7 +83,7 @@
   </li>
   <li>
     <details>
-      📸 댓글 분석 이미지 (Click)
+      <summary>📸 댓글 분석 이미지 (Click)</summary>
       <br>
       <img src="https://github.com/user-attachments/assets/344ae0a2-bb6f-4b34-a0d0-f5838976c56f" alt="댓글분석" width="600">
       </details>
