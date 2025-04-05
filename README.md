@@ -211,13 +211,11 @@
 </details>
 
 
-<h2>🛠 서비스 아키텍처 </h2>
+<h2>🧩 서비스 아키텍처 </h2>
 <details>
   <summary>본문 확인 (👈 Click)</summary>
       <br>
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
-  
-
 </details>
 
 
