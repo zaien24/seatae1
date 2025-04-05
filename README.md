@@ -228,7 +228,6 @@
       Server[Server]
       Result[result.txt]
   
-      Client --> CareerNet
       Client --> Server
       Server --> CareerNet
       Server --> CSV
