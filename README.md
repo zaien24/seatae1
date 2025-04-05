@@ -152,6 +152,31 @@
     <li>댓글 데이터 정제</li>
     <li>정제된 댓글과 학교 정보를 매칭하여 통계 생성</li>
     <li>결과 파일(result.txt) 생성</li>
+    <li>
+      sequenceDiagram
+          
+          ```mermaid
+          sequenceDiagram
+            participant Client
+            participant Server
+            participant 커리어넷 API
+            participant CSV 파일
+          
+            Client->>Server: 서비스 실행 요청
+            Server->>커리어넷 API: 학교 정보 API 호출
+            커리어넷 API-->>Server: 학교 정보 데이터 수신
+            Server->>Server: 학교 정보 데이터 정제
+          
+            Server->>CSV 파일: 댓글 데이터 로드
+            CSV 파일-->>Server: 댓글 리스트 반환
+            Server->>Server: 댓글 데이터 정제
+          
+            Server->>Server: 학교 데이터 + 댓글 매칭
+            Server->>Server: 통계 집계
+          
+            Server->>Client: 결과 파일(result.txt) 생성 완료
+          ```
+    </li>
   </ul>
 </ul>
 
