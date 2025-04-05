@@ -1,16 +1,7 @@
-# 프로젝트 설명
-## 개요
- 주어진 댓글 리스트로부터 유효한 학교 이름을 추출하고,\n
- 이를 학교별로 빈도수 집계하여 결과 파일로 저장하는 프로그램을 Java로 개발하는 것이 목적입니다.\n
- 댓글 리스트 : comments.csv 파일 제공
-## 주요 요구사항
- 
-
-<div class="markdown prose dark:prose-invert w-full break-words light"><p data-start="0" data-end="99" class="">좋습니다! 주어진 과제 내용을 바탕으로, <strong data-start="23" data-end="39">“과제 프로젝트 설명”</strong> 항목을 깔끔하게 작성해드릴게요. 아래는 예시이며, 문서나 README에 바로 넣을 수 있도록 정리했습니다:</p>
 <hr data-start="101" data-end="104" class="" style="">
 <h2 data-start="106" data-end="122" class="">📝 과제 프로젝트 설명</h2>
 <h3 data-start="124" data-end="136" class="">1. 과제 개요</h3>
-<p data-start="138" data-end="289" class="">본 프로젝트는 <strong data-start="146" data-end="177">카카오뱅크 기반기술 플랫폼 서비스 개발자 과제전형</strong>의 일환으로 수행된 과제입니다. 주어진 댓글 리스트로부터 유효한 <strong data-start="213" data-end="222">학교 이름</strong>을 추출하고, 이를 학교별로 <strong data-start="238" data-end="248">빈도수 집계</strong>하여 결과 파일로 저장하는 프로그램을 Java로 개발하는 것이 목적입니다.</p>
+<p data-start="138" data-end="289" class="">주어진 댓글 리스트로부터 유효한 <strong data-start="213" data-end="222">학교 이름</strong>을 추출하고, 이를 학교별로 <strong data-start="238" data-end="248">빈도수 집계</strong>하여 결과 파일로 저장하는 프로그램을 Java로 개발하는 것이 목적입니다.</p>
 <hr data-start="291" data-end="294" class="" style="">
 <h3 data-start="296" data-end="310" class="">2. 주요 요구사항</h3>
 <ul data-start="312" data-end="644">
