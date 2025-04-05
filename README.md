@@ -333,12 +333,10 @@
             alt="시퀀스다이어그램" width="600">
     </li>
   </ul>
-
-  <hr>
-  
   <ul>
     <li>요약<br><br>
-      <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" alt="시퀀스다이어그램" width="800">
+      <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" 
+          alt="시퀀스다이어그램" width="800">
     </li>
   </ul>
 </details>
