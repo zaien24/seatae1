@@ -321,18 +321,12 @@
             alt="시퀀스다이어그램" width="600">
     </li> 
   </ul>
-
-  <hr>
-  
   <ul>
     <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제<br><br>
       <img src="https://github.com/user-attachments/assets/b3acbb0a-d834-4127-846b-b27c0c1175bc" 
             alt="시퀀스다이어그램" width="600">
     </li>
   </ul>
-
-  <hr>
-  
   <ul>
     <li>댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성<br><br>
       <img src="https://github.com/user-attachments/assets/5514f4d3-6878-44fc-aa93-ebcf7d1f2725" 
