@@ -256,8 +256,8 @@
     <li>
       <p><strong>comments.csv 파일 업로드 방법:</strong></p>
       <ul>
-        <li><code>java -jar app.jar</code> 실행 시, <strong>JAR 파일과 동일한 경로</strong>에 <code>comments.csv</code> 위치</li>
-        <li>또는 <code>/upload/csv/comments.csv</code> 경로에 파일 배치</li>
+        <li><code>java -jar app.jar</code> 실행한 위치 기준으로
+        <li><code>/upload/csv/comments.csv</code> 경로에 파일 배치</li>
       </ul>
     </li>
   </ul>
