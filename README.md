@@ -316,17 +316,16 @@
   <br>
   
   <ul>
-    <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제 
-    </li> 
-    <img src="https://github.com/user-attachments/assets/e09ea107-8940-4c5b-8599-018030d33b55" 
+    <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제<br><br>
+      <img src="https://github.com/user-attachments/assets/e09ea107-8940-4c5b-8599-018030d33b55" 
             alt="시퀀스다이어그램" width="600">
+    </li> 
   </ul>
 
   <hr>
   
   <ul>
-    <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
-      <br>
+    <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제<br><br>
       <img src="https://github.com/user-attachments/assets/b3acbb0a-d834-4127-846b-b27c0c1175bc" 
             alt="시퀀스다이어그램" width="600">
     </li>
