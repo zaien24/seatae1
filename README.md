@@ -220,33 +220,6 @@
 
 </details>
 
-```mermaid
-  flowchart TD
-    Client([🧑‍💻 Client]) --> Server([🖥️ Server])
-    Server --> CareerNet([🌐 CareerNet API])
-    Server --> CSV([📄 CSV 파일])
-    Server --> Result([📁 result.txt (결과파일)])
-
-    %% 스타일 정의
-    classDef clientStyle fill:#DDF9FF,stroke:#00B2FF,stroke-width:2px;
-    classDef serverStyle fill:#F3E5F5,stroke:#9C27B0,stroke-width:2px;
-    classDef apiStyle fill:#FFF3E0,stroke:#FF9800,stroke-width:2px;
-    classDef fileStyle fill:#E8F5E9,stroke:#4CAF50,stroke-width:2px;
-    classDef resultStyle fill:#E3F2FD,stroke:#2196F3,stroke-width:2px;
-
-    class Client clientStyle;
-    class Server serverStyle;
-    class CareerNet apiStyle;
-    class CSV fileStyle;
-    class Result resultStyle;
-```
-
-
-
-
-
-
-
 
 
 
