@@ -218,6 +218,34 @@
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
 </details>
 
+<h2>💻 개발 환경 및 기술 스택</h2>
+<details>
+<summary>본문 확인 (👈 Click)</summary>
+
+<h3>1️개발 환경</h3>
+<ul>
+  <li><strong>IDE:</strong> IntelliJ IDEA</li>
+  <li><strong>Java 버전:</strong> Java 17</li>
+  <li><strong>빌드 도구:</strong> Gradle 8.1.3</li>
+  <li><strong>프레임워크:</strong> Spring Boot 3.4.4</li>
+  <li><strong>기타 도구:</strong> Lombok</li>
+</ul>
+
+<h3>오픈 소스 및 라이브러리</h3>
+<ul>
+  <li><strong>OpenCSV 5.7.1:</strong> CSV 파일 파싱 및 매핑 처리</li>
+  <li>
+    <strong>LevenshteinDistance:</strong> 문자열 유사도 계산 알고리즘<br>
+    (라이브러리: <code>commons-text-1.10.0.jar</code>)
+  </li>
+  <li>
+    <strong>커리어넷 오픈 API:</strong> 
+    <a href="https://www.career.go.kr/cnet/front/openapi/openApiMainCenter.do" target="_blank">학교 정보 수집용 외부 공공 데이터 API</a>
+  </li>
+</ul>
+</details>
+
+
 
 
 
