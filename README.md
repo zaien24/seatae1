@@ -281,7 +281,7 @@
 <details>
   <summary>본문 확인 (👈 Click)</summary>
       <br>
-      <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
+      <img src="https://github.com/user-attachments/assets/b3ffba6c-8e5b-467d-a1cf-bdb088188b8c" alt="서비스 아키텍처" width="600">
 </details>
 
 <br>
@@ -343,19 +343,19 @@
   <ul>
     <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제<br><br>
       <img src="https://github.com/user-attachments/assets/e09ea107-8940-4c5b-8599-018030d33b55" 
-            alt="시퀀스다이어그램" width="600">
+            alt="정보1" width="600">
     </li> 
   </ul>
   <ul>
     <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제<br><br>
       <img src="https://github.com/user-attachments/assets/b3acbb0a-d834-4127-846b-b27c0c1175bc" 
-            alt="시퀀스다이어그램" width="600">
+            alt="정보2" width="600">
     </li>
   </ul>
   <ul>
     <li>댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성<br><br>
       <img src="https://github.com/user-attachments/assets/5514f4d3-6878-44fc-aa93-ebcf7d1f2725" 
-            alt="시퀀스다이어그램" width="600">
+            alt="정보3" width="600">
     </li>
   </ul>
 
@@ -363,7 +363,7 @@
     <li>
       프로젝트 소스 프로세스 <br><br>
       <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" 
-           alt="시퀀스다이어그램" width="800"><br>
+           alt="정보4" width="800"><br>
 
     시퀀스 다이어그램 참여자 역할 설명<br>
 
