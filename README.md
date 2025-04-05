@@ -1,4 +1,4 @@
-<h2>📝 프로젝트 설명<a name = "project"></a></h2>
+<h2>📂 프로젝트 설명<a name = "project"></a></h2>
 <details>
   <summary>본문 확인 (👈 Click)</summary>
 
