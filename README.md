@@ -54,7 +54,40 @@
 </ul>
 </details>
 
+<h2>📌 요구사항 분석</h2>
+<details>
+<summary>본문 확인 (👈 Click)</summary>
 
+<h3>1. 댓글 기반 학교 카운팅 서비스 요구사항</h3>
+<ul>
+  <li>
+    <p>주어진 댓글 리스트(CSV 파일)에서 대한민국 내 유효한 <strong>학교 이름</strong>을 추출하고, 이를 <strong>학교별로 등장 횟수</strong>를 집계하는 프로그램을 작성해야 합니다.</p>
+  </li>
+  <li>
+    <p>댓글은 <strong>큰따옴표(")</strong>로 구분되며, 하나의 댓글에는 복수 개의 <strong>행정구역명, 학교명, 이모지, 특수문자</strong> 등이 혼재되어 있습니다.</p>
+  </li>
+  <li>
+    <p>대상 학교는 대한민국의 <strong>초등학교, 중학교, 고등학교, 대학교</strong>로 한정하며, 유사 표현이나 비표준 명칭은 제외되어야 합니다.</p>
+  </li>
+  <li>
+    <p>하나의 댓글에 <strong>여러 개의 학교명</strong>이 존재할 수 있으므로, 모든 유효한 학교명을 <strong>정확히 식별하고 집계</strong>해야 합니다.</p>
+  </li>
+  <li>
+    <p>결과는 다음의 두 파일로 출력되어야 합니다:</p>
+    <ul>
+      <li><code>result.txt</code>: <strong>학교명 + 탭(\t) + 카운트</strong> 형식으로 저장<br>예) <code>서울중학교\t12</code></li>
+      <li><code>result.log</code>: 처리 중 발생한 <strong>로그 및 예외 정보</strong>를 저장</li>
+    </ul>
+  </li>
+  <li>
+    <p>정확한 학교명 추출을 위해 <strong>텍스트 정제</strong> 및 <strong>패턴 인식</strong> 처리가 필요합니다.<br>예: 이모지 제거, 괄호 제거, 개행 문자 정리 등</p>
+  </li>
+  <li>
+    <p>개발 언어는 <strong>Java 8 또는 Java 17</strong>이며, <strong>오픈소스 또는 무료 라이브러리</strong>는 제한 없이 사용 가능합니다.</p>
+  </li>
+</ul>
+
+</details>
 
 
 
