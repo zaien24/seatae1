@@ -245,6 +245,11 @@
 </ul>
 </details>
 
+<h2>📄 기능 구현 프로세스</h2>
+<details>
+  <summary>본문 확인 (👈 Click)</summary>
+
+
 <h2>📄 결과 확인 방법</h2>
 <details>
   <summary>본문 확인 (👈 Click)</summary>
