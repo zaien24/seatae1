@@ -163,25 +163,45 @@
 </ul>
 
 <h3>📌 4. 개발</h3>
-<ul>
-  <li><strong>공통 및 예외 처리 포함</strong></li>
+<details>
+  <summary>본문 확인 (👈 Click)</summary>
+  
   <ul>
-    <li>외부 API 호출 및 JSON 파싱</li>
-    <li>CSV 파일 로드 및 각 댓글 리스트화</li>
-    <li>외부 학교 데이터 정제 (행정구역명, 학교명)</li>
-    <li>댓글 데이터 정제 (이모지 제거, 줄바꿈 정리 등)</li>
-    <li>중복된 행정구역 정보 단일화</li>
-    <li>댓글 내 중복 학교명 리스트화</li>
-    <li>댓글 데이터와 외부 학교 데이터를 비교하여 통계 생성</li>
-    <ul>
-      <li>학교 구분(초/중/고)</li>
-      <li>행정구역 정보 일치 여부</li>
-      <li>학교명 유사도 판단</li>
-    </ul>
-    <li>결과 파일(result.txt) 생성</li>
-    <li>로그 파일(result.log) 처리</li>
+    <li>
+      <p>공공데이터 기반의 <strong>학교 정보를 제공하는 API</strong>를 호출하여 전국 학교 데이터를 수집합니다.</p>
+    </li>
+    <li>
+      <p><strong>CSV 파일을 로드</strong>하여 각 댓글을 리스트 형태로 분해하고 데이터 분석에 활용 가능한 구조로 만듭니다.</p>
+    </li>
+    <li>
+      <p>API로부터 수신한 <strong>외부 학교 데이터를 정제</strong>합니다.<br>
+      - 행정구역명 정리<br>
+      - 학교명 형식 통일</p>
+    </li>
+    <li>
+      <p><strong>댓글 데이터 정제</strong> 작업을 수행합니다.</p>
+      <ul>
+        <li>중복된 행정구역 정보를 <strong>단일 저장 방식</strong>으로 정리</li>
+        <li>댓글 내 존재하는 <strong>중복 학교명을 리스트화</strong> 하여 중복 누락 방지</li>
+      </ul>
+    </li>
+    <li>
+      <p><strong>댓글 데이터와 외부 학교 데이터를 비교하여 통계</strong>를 생성합니다.</p>
+      <ul>
+        <li><strong>학교 구분</strong> (초/중/고/대) 기준 필터링</li>
+        <li><strong>행정구역 정보</strong> 일치 여부 확인</li>
+        <li><strong>학교명 유사도</strong> 판단 로직 적용 (정확도 향상)</li>
+      </ul>
+    </li>
+    <li>
+      <p>최종 결과를 <code>result.txt</code> 파일로 생성하고 저장합니다.</p>
+    </li>
+    <li>
+      <p>처리 과정의 로그를 <code>result.log</code> 파일에 기록하여 이력과 오류를 추적할 수 있도록 합니다.</p>
+    </li>
   </ul>
-</ul>
+
+</details>
 
 <h3>📌 5. 결과 확인</h3>
 <ul>
