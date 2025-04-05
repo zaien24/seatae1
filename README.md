@@ -101,38 +101,37 @@
 <summary>본문 확인 (👈 Click)</summary>
 
 <h3>1. 요구사항 분석</h3>
-<h3>📌 2. 전체 학교 정보를 가져올 API 선정</h3>
+<h3>2. 전체 학교 정보를 가져올 API 선정</h3>
 <ul>
-  <li>
-    학교 정보를 제공하는 API를 탐색하고 선정합니다.<br>
-    (선정된 API: <a href="https://www.career.go.kr/cnet/front/openapi/openApiMainCenter.do" target="_blank">커리어넷 오픈 API</a>)
+  <li>학교 정보를 제공하는 API를 탐색하고 선정합니다.</br>(커리어넷 오픈 API -  https://www.career.go.kr/cnet/front/openapi/openApiMainCenter.do)
   </li>
   <li>API 사용을 위한 인증키를 신청합니다.</li>
   <li>선정된 API의 응답 형식과 활용 가능성을 테스트합니다.</li>
-  <li>API 상세 분석 및 테스트 결과는 아래 이미지를 참고합니다:</li>
-</ul>
-
-<ul>
   <li>
-    <details>
-      <summary>📸 API 분석 1 (Click)</summary>
+      <ul>
+        <li>
+        <details>
+      <summary>📸 API분석1(Click)</summary>
       <br>
-      <img src="https://github.com/user-attachments/assets/36f3e71e-5393-43eb-9af6-ae3703fd1bd7" alt="API 분석 1" width="600">
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>📸 API 분석 2 (Click)</summary>
+      <img src="https://github.com/user-attachments/assets/36f3e71e-5393-43eb-9af6-ae3703fd1bd7" alt="API분석1" width="600">
+      </details>
+      </li>
+      <li>
+        <details>
+      <summary>📸 API분석2 (Click)</summary>
       <br>
-      <img src="https://github.com/user-attachments/assets/38188b4a-fbf0-4514-a6d5-7d394d54bcd8" alt="API 분석 2" width="600">
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary>📸 API 테스트 결과 (Click)</summary>
+      <img src="https://github.com/user-attachments/assets/38188b4a-fbf0-4514-a6d5-7d394d54bcd8" alt="API분석1" width="600">
+      </details>
+      </li>
+      <li>
+        <details>
+      <summary>📸 API테스트 (Click)</summary>
       <br>
-      <img src="https://github.com/user-attachments/assets/ca449012-3446-45ad-9685-c8c5c53efe28" alt="API 테스트" width="600">
-    </details>
+      <img src="https://github.com/user-attachments/assets/ca449012-3446-45ad-9685-c8c5c53efe28" alt="API테스트" width="600">
+      </details>
+      </li>
+      </ul>
+      
   </li>
 </ul>
 
