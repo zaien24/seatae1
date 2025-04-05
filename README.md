@@ -245,6 +245,25 @@
 </ul>
 </details>
 
+<h2>📄 결과 및 확인 방법</h2>
+<details>
+  <summary>본문 확인 (👈 Click)</summary>
+  <ul>
+    <li>
+      <p><strong>결과 다운로드 URL:</strong><br>
+      <code>http://localhost:8080/api/school/downloadResult</code></p>
+    </li>
+    <li>
+      <p><strong>comments.csv 파일 업로드 방법:</strong></p>
+      <ul>
+        <li><code>java -jar app.jar</code> 실행 시, <strong>JAR 파일과 동일한 경로</strong>에 <code>comments.csv</code> 위치</li>
+        <li>또는 <code>/upload/csv/comments.csv</code> 경로에 파일 배치</li>
+      </ul>
+    </li>
+  </ul>
+
+</details>
+
 
 
 
