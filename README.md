@@ -220,20 +220,20 @@
 
 </details>
 
-
-flowchart TD
-    Client[Client]
-    CareerNet[CareerNet API]
-    CSV[CSV 파일]
-    Server[Server]
-    Result[result.txt]
-
-    Client --> CareerNet
-    Client --> Server
-    Server --> CareerNet
-    Server --> CSV
-    Server --> Result
-
+```mermaid
+  flowchart TD
+      Client[Client]
+      CareerNet[CareerNet API]
+      CSV[CSV 파일]
+      Server[Server]
+      Result[result.txt]
+  
+      Client --> CareerNet
+      Client --> Server
+      Server --> CareerNet
+      Server --> CSV
+      Server --> Result
+```
 
 
 
