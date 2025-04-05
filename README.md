@@ -334,7 +334,7 @@
     </li>
   </ul>
   <ul>
-    <li>요약<br><br>
+    <li>프로젝트 소스 프로세스 <br><br>
       <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" 
           alt="시퀀스다이어그램" width="800">
     </li>
