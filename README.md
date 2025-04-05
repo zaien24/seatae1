@@ -1,6 +1,6 @@
 <hr data-start="101" data-end="104" class="" style="">
-<h2 data-start="106" data-end="122" class="">📝 과제 프로젝트 설명</h2>
-<h3 data-start="124" data-end="136" class="">1. 과제 개요</h3>
+<h2 data-start="106" data-end="122" class="">📝 프로젝트 설명</h2>
+<h3 data-start="124" data-end="136" class="">1. 개요</h3>
 <p data-start="138" data-end="289" class="">주어진 댓글 리스트로부터 유효한 <strong data-start="213" data-end="222">학교 이름</strong>을 추출하고,</br> 이를 학교별로 <strong data-start="238" data-end="248">빈도수 집계</strong>하여 결과 파일로 저장하는 프로그램을 Java로 개발하는 것이 목적입니다. </br> 댓글 리스트는 comments.csv 파일로 제공되었습니다.</p>
 <hr data-start="291" data-end="294" class="" style="">
 <h3 data-start="296" data-end="310" class="">2. 주요 요구사항</h3>
