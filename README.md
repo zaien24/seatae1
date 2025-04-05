@@ -263,7 +263,7 @@
     </li>
     <li>요약
       <br>
-      <img src="https://github.com/user-attachments/assets/f0b39bca-2698-44c1-b485-8b96f10460f7" alt="시퀀스다이어그램" width="600">
+      <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" alt="시퀀스다이어그램" width="600">
     </li>
   </ul>
   
