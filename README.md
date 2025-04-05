@@ -283,6 +283,8 @@
   <li><strong>기타 도구:</strong> Lombok</li>
 </ul>
 
+<hr>
+
 <h3>2.오픈 소스 및 라이브러리</h3>
 <ul>
   <li><strong>OpenCSV 5.7.1:</strong> CSV 파일 파싱 및 매핑 처리</li>
