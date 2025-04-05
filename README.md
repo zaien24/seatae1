@@ -248,6 +248,17 @@
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
 </details>
 
+<br>
+
+
+
+
+
+
+
+
+
+
 <h2>💻 개발 환경 및 기술 스택</h2>
 <details>
 <summary>본문 확인 (👈 Click)</summary>
