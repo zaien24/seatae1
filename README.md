@@ -255,7 +255,7 @@
     </li>
     <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
       <br>
-      <img src="https://github.com/user-attachments/assets/efab4411-e576-47de-955d-e014101f0c8a" alt="시퀀스다이어그램" width="600">
+      <img src="https://github.com/user-attachments/assets/6afc01b1-168e-41a5-ab7e-f0d48d5b51fe" alt="시퀀스다이어그램" width="600">
     </li>
     <li>댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성
       <br>
