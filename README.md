@@ -154,7 +154,10 @@
     
   </ul>
 </ul>
-    ```mermaid
+
+1. 회원가입
+
+```mermaid
   sequenceDiagram
     autonumber
     client ->> server: 회원가입 요청
@@ -164,6 +167,7 @@
     server -->> client: reason code와 함께 실패 반환
     end
 ```
+
 
 <h3>📌 4. 개발</h3>
 <ul>
