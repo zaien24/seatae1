@@ -83,7 +83,8 @@
     <p>정확한 학교명 추출을 위해 <strong>텍스트 정제</strong> 및 <strong>패턴 인식</strong> 처리가 필요합니다.<br>예: 이모지 제거, 괄호 제거, 개행 문자 정리 등</p>
   </li>
 </ul>
-
+    <summary>이미지 (👈 Click)</summary>
+    
 </details>
 
 
