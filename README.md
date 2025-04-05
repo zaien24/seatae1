@@ -249,6 +249,7 @@
         <li><strong>학교명 유사도</strong> 판단</li>
       </ul>
     </li>
+    <li><strong>통계 데이터 정렬 - 초/중/고/대</strong></li>
     <li><strong>결과 파일(result.txt) 생성</strong></li>
     <li><strong>로그 파일(result.log) 처리</strong></li>
   </ul>
