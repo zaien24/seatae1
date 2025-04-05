@@ -155,7 +155,7 @@
         <details>
       <summary>📸 시퀀스다이어그램 (Click)</summary>
       <br>
-      <img src="https://github.com/user-attachments/assets/c5fdd530-5f35-42d5-b6de-393cf267fcbf" alt="시퀀스다이어그램" width="600">
+      <img src="https://github.com/user-attachments/assets/5e0a9f66-d5ea-4161-acfe-68cac421945d" alt="시퀀스다이어그램" width="600">
       </details>
   </ul>
 </ul>
