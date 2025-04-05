@@ -249,13 +249,13 @@
 <details>
   <summary>본문 확인 (👈 Click)</summary>
   <ul>
-    <li>1. 공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제
+    <li>1. 공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제</br>
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
     </li>
-    <li>2. CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
+    <li>2. CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제</br>
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
     </li>
-    <li>3. 댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성
+    <li>3. 댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성</br>
       <img src="https://github.com/user-attachments/assets/ae426f4b-81d6-41f5-9f87-3b9c35ecb13c" alt="시퀀스다이어그램" width="600">
     </li>
   </ul>
