@@ -418,7 +418,7 @@
         <li><code>/upload/csv/comments.csv</code> 경로에 파일 배치</li>
       </ul>
     </li>
-    <li> 결과 이미지
+    <li> 결과 확인 관련 이미지
       <ul>
         <li> 
           <details>
