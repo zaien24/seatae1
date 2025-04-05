@@ -334,8 +334,7 @@
   <hr>
   
   <ul>
-    <li>댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성
-      <br>
+    <li>댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성<br><br>
       <img src="https://github.com/user-attachments/assets/5514f4d3-6878-44fc-aa93-ebcf7d1f2725" 
             alt="시퀀스다이어그램" width="600">
     </li>
@@ -344,9 +343,8 @@
   <hr>
   
   <ul>
-    <li>요약
-      <br>
-      <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" alt="시퀀스다이어그램" width="600">
+    <li>요약<br><br>
+      <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" alt="시퀀스다이어그램" width="800">
     </li>
   </ul>
 </details>
