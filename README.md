@@ -318,22 +318,30 @@
   <ul>
     <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제
       <br>
-      <img src="https://github.com/user-attachments/assets/e09ea107-8940-4c5b-8599-018030d33b55" alt="시퀀스다이어그램" width="600">
-    </li>
+      <img src="https://github.com/user-attachments/assets/e09ea107-8940-4c5b-8599-018030d33b55" 
+            alt="시퀀스다이어그램" width="600">
+    </li> 
+  </ul>
+  <ul>
     <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
       <br>
-      <img src="https://github.com/user-attachments/assets/b3acbb0a-d834-4127-846b-b27c0c1175bc" alt="시퀀스다이어그램" width="600">
+      <img src="https://github.com/user-attachments/assets/b3acbb0a-d834-4127-846b-b27c0c1175bc" 
+            alt="시퀀스다이어그램" width="600">
     </li>
+  </ul>
+  <ul>
     <li>댓글 정제 데이터와 학교 정제 데이터를 비교하여 통계 생성
       <br>
-      <img src="https://github.com/user-attachments/assets/5514f4d3-6878-44fc-aa93-ebcf7d1f2725" alt="시퀀스다이어그램" width="600">
+      <img src="https://github.com/user-attachments/assets/5514f4d3-6878-44fc-aa93-ebcf7d1f2725" 
+            alt="시퀀스다이어그램" width="600">
     </li>
+  </ul>
+  <ul>
     <li>요약
       <br>
       <img src="https://github.com/user-attachments/assets/040f7cfa-8cfc-491a-ae67-67a34e524649" alt="시퀀스다이어그램" width="600">
     </li>
   </ul>
-  
 </details>
 
 <br>
