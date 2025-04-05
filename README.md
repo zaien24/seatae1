@@ -265,7 +265,7 @@
 
   <h3>6. 산출물 목록</h3>
   <ul>
-    <li>README (설치 및 실행 방법 포함)</li>
+    <li>README.md (실행 방법 포함)</li>
     <li>결과 파일: <code>result.txt</code></li>
     <li>로그 파일: <code>result.log</code></li>
     <li>소스 코드</li>
