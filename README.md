@@ -112,7 +112,7 @@
         <details>
       <summary>📸 API분석1(Click)</summary>
       <br>
-      <img src="https://github.com/user-attachments/assets/344ae0a2-bb6f-4b34-a0d0-f5838976c56f" alt="API분석1" width="600">
+      <img src="https://github.com/user-attachments/assets/a79a9731-4e29-4931-8d33-f594361a596a" alt="API분석1" width="600">
       </details>
       </li>
       <li>
