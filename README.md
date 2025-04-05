@@ -250,7 +250,7 @@
   <summary>본문 확인 (👈 Click)</summary>
   <ul>
     <li>
-      <p><strong>결과 다운로드 URL:</strong><br>
+      <p><strong>결과 호출 URL:</strong><br>
       <code>http://localhost:8080/api/school/downloadResult</code></p>
     </li>
     <li>
