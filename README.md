@@ -1,58 +1,68 @@
-<h2 data-start="106" data-end="122" class="">📝 프로젝트 설명</h2>
+<h2>📝 프로젝트 설명</h2>
 <details>
-<summary> 본문 확인 (👈 Click)</summary>
-<h3 data-start="124" data-end="136" class="">1. 개요</h3>
-<p data-start="138" data-end="289" class="">주어진 댓글 리스트로부터 유효한 <strong data-start="213" data-end="222">학교 이름</strong>을 추출하고,</br> 이를 학교별로 <strong data-start="238" data-end="248">빈도수 집계</strong>하여 결과 파일로 저장하는 프로그램을 Java로 개발하는 것이 목적입니다. </br> 댓글 리스트는 comments.csv 파일로 제공되었습니다.</p>
-<hr data-start="291" data-end="294" class="" style="">
-<h3 data-start="296" data-end="310" class="">2. 주요 요구사항</h3>
-<ul data-start="312" data-end="644">
-<li data-start="312" data-end="352" class="" style="">
-<p data-start="314" data-end="352" class="">주어진 댓글 데이터에서 <strong data-start="328" data-end="341">유효한 학교 이름</strong>을 찾아내야 합니다.</p>
-</li>
-<li data-start="353" data-end="395" class="" style="">
-<p data-start="355" data-end="395" class="">학교 이름은 중복될 수 있으며, 이를 <strong data-start="376" data-end="388">학교별로 카운트</strong>해야 합니다.</p>
-</li>
-<li data-start="444" data-end="482" class="" style="">
-<p data-start="446" data-end="482" class="">개발 언어는 <strong data-start="453" data-end="474">Java 8 또는 Java 17</strong>로 제한됩니다.</p>
-</li>
-<li data-start="483" data-end="529" class="" style="">
-<p data-start="485" data-end="529" class="">외부 라이브러리는 <strong data-start="495" data-end="509">오픈소스 혹은 무료</strong>인 경우 제한 없이 사용 가능합니다.</p>
-</li>
-<li data-start="530" data-end="644" class="" style="">
-<p data-start="532" data-end="569" class="">출력 결과 및 로그는 각각 다음과 같은 형식으로 저장되어야 합니다:</p>
-<ul data-start="572" data-end="644">
-<li data-start="572" data-end="609" class="" style="">
-<p data-start="574" data-end="609" class=""><code data-start="574" data-end="586">result.txt</code>: <code data-start="588" data-end="601">학교이름 \t 카운트</code> 형식으로 저장</p>
-</li>
-<li data-start="612" data-end="644" class="" style="">
-<p data-start="614" data-end="644" class=""><code data-start="614" data-end="626">result.log</code>: 처리 과정 및 로깅 내용 저장</p>
-</li>
-</ul>
-</li>
-</ul>
-<hr data-start="646" data-end="649" class="" style="">
-<h3 data-start="651" data-end="669" class="">3. 결과 파일 형식 예시</h3>
-<pre class="overflow-visible!" data-start="671" data-end="709"><div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary"><div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none rounded-t-[5px]"></div><div class="sticky top-9"><div class="absolute right-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-sidebar-surface-primary text-token-text-secondary dark:bg-token-main-surface-secondary flex items-center rounded-sm px-2 font-sans text-xs"><span class="" data-state="closed"></span><span class="" data-state="closed"></span></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>ㅇㅇ중학교	192
-ㅇㅇㅇ고등학교	254
-서울대학교	13
-</span></span></code></div></div></pre>
-<blockquote data-start="711" data-end="759">
-<p data-start="713" data-end="759" class="">※ <code data-start="715" data-end="722">학교 이름</code>과 <code data-start="724" data-end="728">숫자</code> 사이에는 <strong data-start="734" data-end="742">탭 문자</strong>(<code data-start="743" data-end="747">\t</code>)가 들어가야 합니다.</p>
-</blockquote>
-<hr data-start="761" data-end="764" class="" style="">
-<h3 data-start="766" data-end="778" class="">4. 제출 항목</h3>
-<ul data-start="780" data-end="844">
-<li data-start="780" data-end="795" class="" style="">
-<p data-start="782" data-end="795" class="">J소스 코드</p>
-</li>
-<li data-start="796" data-end="821" class="" style="">
-<p data-start="798" data-end="821" class="">실행 결과 파일 (<code data-start="808" data-end="820">result.txt</code>)</p>
-</li>
-<li data-start="822" data-end="844" class="" style="">
-<p data-start="824" data-end="844" class="">로그 파일 (<code data-start="831" data-end="843">result.log</code>)</p>
-</li>
-</ul>
+  <summary>본문 확인 (👈 Click)</summary>
+
+  <h3>1. 개요</h3>
+  <p>
+    주어진 댓글 리스트로부터 유효한 <strong>학교 이름</strong>을 추출하고,<br>
+    이를 학교별로 <strong>빈도수 집계</strong>하여 결과 파일로 저장하는 프로그램을 Java로 개발하는 것이 목적입니다.<br>
+    댓글 리스트는 comments.csv 파일로 제공되었습니다.
+  </p>
+
+  <hr>
+
+  <h3>2. 주요 요구사항</h3>
+  <ul>
+    <li>
+      주어진 댓글 데이터에서 <strong>유효한 학교 이름</strong>을 찾아내야 합니다.
+    </li>
+    <li>
+      학교 이름은 중복될 수 있으며, 이를 <strong>학교별로 카운트</strong>해야 합니다.
+    </li>
+    <li>
+      개발 언어는 <strong>Java 8 또는 Java 17</strong>로 제한됩니다.
+    </li>
+    <li>
+      외부 라이브러리는 <strong>오픈소스 혹은 무료</strong>인 경우 제한 없이 사용 가능합니다.
+    </li>
+    <li>
+      출력 결과 및 로그는 다음과 같은 형식으로 저장되어야 합니다:
+      <ul>
+        <li>
+          <code>result.txt</code>: <code>학교이름 \t 카운트</code> 형식으로 저장
+        </li>
+        <li>
+          <code>result.log</code>: 처리 과정 및 로깅 내용 저장
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h3>3. 결과 파일 형식 예시</h3>
+      <pre>
+    <code>
+    ㅇㅇ중학교	192
+    ㅇㅇㅇ고등학교	254
+    서울대학교	13
+    </code>
+      </pre>
+
+  <blockquote>
+    ※ <code>학교 이름</code>과 <code>숫자</code> 사이에는 <strong>탭 문자</strong> (<code>\t</code>)가 들어가야 합니다.
+  </blockquote>
+
+  <hr>
+
+  <h3>4. 제출 항목</h3>
+  <ul>
+    <li>Java 소스 코드</li>
+    <li>실행 결과 파일 (<code>result.txt</code>)</li>
+    <li>로그 파일 (<code>result.log</code>)</li>
+  </ul>
 </details>
+
 
 <h2>📌 요구사항 분석</h2>
 <details>
