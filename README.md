@@ -211,6 +211,29 @@
 </details>
 
 
+<h2>🛠 서비스 아키텍처 </h2>
+<details>
+  <summary>본문 확인 (👈 Click)</summary>
+      <br>
+      <img src="https://github.com/user-attachments/assets/c5fdd530-5f35-42d5-b6de-393cf267fcbf" alt="시퀀스다이어그램" width="600">
+  
+
+</details>
+
+
+flowchart TD
+    Client[Client]
+    CareerNet[CareerNet API]
+    CSV[CSV 파일]
+    Server[Server]
+    Result[result.txt]
+
+    Client --> CareerNet
+    Client --> Server
+    Server --> CareerNet
+    Server --> CSV
+    Server --> Result
+
 
 
 
