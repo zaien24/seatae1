@@ -123,65 +123,113 @@
 <details>
   <summary>본문 확인 (👈 Click)</summary>
 
-  <h3>1. 개요</h3>
-  <p>
-    주어진 댓글 리스트로부터 유효한 <strong>학교 이름</strong>을 추출하고,<br>
-    이를 학교별로 <strong>빈도수 집계</strong>하여 결과 파일로 저장하는 프로그램을 Java로 개발하는 것이 목적입니다.<br>
-    댓글 리스트는 comments.csv 파일로 제공되었습니다.
-  </p>
+  <h3>1. 요구사항 분석</h3>
 
-  <hr>
-
-  <h3>2. 주요 요구사항</h3>
+  <h3>2. 전체 학교 정보를 가져올 API 선정</h3>
   <ul>
     <li>
-      주어진 댓글 데이터에서 <strong>유효한 학교 이름</strong>을 찾아내야 합니다.
+      학교 정보를 제공하는 API를 탐색하고 선정합니다.<br>
+      (선정된 API: <a href="https://www.career.go.kr/cnet/front/openapi/openApiMainCenter.do" target="_blank">커리어넷 오픈 API</a>)
     </li>
+    <li>API 사용을 위한 인증키를 신청합니다.</li>
+    <li>선정된 API의 응답 형식과 활용 가능성을 테스트합니다.</li>
     <li>
-      학교 이름은 중복될 수 있으며, 이를 <strong>학교별로 카운트</strong>해야 합니다.
-    </li>
-    <li>
-      개발 언어는 <strong>Java 8 또는 Java 17</strong>로 제한됩니다.
-    </li>
-    <li>
-      외부 라이브러리는 <strong>오픈소스 혹은 무료</strong>인 경우 제한 없이 사용 가능합니다.
-    </li>
-    <li>
-      출력 결과 및 로그는 다음과 같은 형식으로 저장되어야 합니다:
       <ul>
         <li>
-          <code>result.txt</code>: <code>학교이름 \t 카운트</code> 형식으로 저장
+          <details>
+            <summary>📸 API분석1(Click)</summary>
+            <br>
+            <img src="https://github.com/user-attachments/assets/36f3e71e-5393-43eb-9af6-ae3703fd1bd7" alt="API분석1" width="600">
+          </details>
         </li>
         <li>
-          <code>result.log</code>: 처리 과정 및 로깅 내용 저장
+          <details>
+            <summary>📸 API분석2 (Click)</summary>
+            <br>
+            <img src="https://github.com/user-attachments/assets/38188b4a-fbf0-4514-a6d5-7d394d54bcd8" alt="API분석2" width="600">
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>📸 API테스트 (Click)</summary>
+            <br>
+            <img src="https://github.com/user-attachments/assets/ca449012-3446-45ad-9685-c8c5c53efe28" alt="API테스트" width="600">
+          </details>
         </li>
       </ul>
     </li>
   </ul>
 
-  <hr>
-
-  <h3>3. 결과 파일 형식 예시</h3>
-  <pre><code>
-ㅇㅇ중학교	192
-ㅇㅇㅇ고등학교	254
-서울대학교	13
-  </code></pre>
-
-  <blockquote>
-    ※ <code>학교 이름</code>과 <code>숫자</code> 사이에는 <strong>탭 문자</strong> (<code>\t</code>)가 들어가야 합니다.
-  </blockquote>
-
-  <hr>
-
-  <h3>4. 제출 항목</h3>
+  <h3>3. 기능 및 정책 정의 (Flow Chart 포함 예정)</h3>
   <ul>
-    <li>Java 소스 코드</li>
-    <li>실행 결과 파일 (<code>result.txt</code>)</li>
-    <li>로그 파일 (<code>result.log</code>)</li>
+    <li><strong>정책</strong></li>
+    <ul>
+      <li>중복된 행정구역명, 학교명은 정제 처리</li>
+      <li>비표준 표현은 필터링하여 유효한 학교명만 추출</li>
+    </ul>
+    <li><strong>기능</strong></li>
+    <ul>
+      <li>공공데이터 기반의 학교 정보를 제공하는 API 호출</li>
+      <li>CSV 파일 로드 및 댓글 리스트화</li>
+      <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 데이터 정제</li>
+      <li>댓글 데이터 정제</li>
+      <li>정제된 댓글과 학교 정보를 매칭하여 통계 생성</li>
+      <li>결과 파일(result.txt) 생성</li>
+      <li>
+        <details>
+          <summary>📸 시퀀스다이어그램 (Click)</summary>
+          <br>
+          <img src="https://github.com/user-attachments/assets/5e0a9f66-d5ea-4161-acfe-68cac421945d" alt="시퀀스다이어그램" width="600">
+        </details>
+      </li>
+    </ul>
+  </ul>
+
+  <h3>4. 개발</h3>
+  <ul>
+    <li>공공데이터 기반의 <strong>학교 정보를 제공하는 API 호출</strong></li>
+    <li><strong>CSV 파일 로드</strong> 및 댓글 리스트화</li>
+    <li>
+      <strong>공공데이터 기반의 학교 정보를 제공하는 API 호출 데이터 정제</strong>
+      <ul>
+        <li>행정구역명 정리</li>
+        <li>학교명 형식 통일</li>
+      </ul>
+    </li>
+    <li>
+      <strong>댓글 데이터 정제</strong>
+      <ul>
+        <li>중복된 행정구역 정보 → <strong>단일 저장 처리</strong></li>
+        <li>댓글 내 중복된 학교명 → <strong>리스트화</strong> 처리</li>
+      </ul>
+    </li>
+    <li>
+      <strong>댓글 데이터와 학교 데이터를 비교하여 통계 생성</strong>
+      <ul>
+        <li><strong>학교 구분</strong>: 초/중/고/대</li>
+        <li><strong>행정구역 정보</strong> 일치 여부</li>
+        <li><strong>학교명 유사도</strong> 판단</li>
+      </ul>
+    </li>
+    <li><strong>결과 파일(result.txt) 생성</strong></li>
+    <li><strong>로그 파일(result.log) 처리</strong></li>
+  </ul>
+
+  <h3>5. 결과 확인</h3>
+  <ul>
+    <li>출력된 결과 파일과 로그 파일을 통해 정상 수행 여부 확인</li>
+  </ul>
+
+  <h3>6. 산출물 목록</h3>
+  <ul>
+    <li>README (설치 및 실행 방법 포함)</li>
+    <li>결과 파일: <code>result.txt</code></li>
+    <li>로그 파일: <code>result.log</code></li>
+    <li>소스 코드</li>
+    <li>실행 파일: <code>app.jar</code></li>
+    <li>입력 파일: <code>comments.csv</code></li>
   </ul>
 </details>
-
 
 <br>
 
