@@ -305,25 +305,18 @@
               <strong>학교명 추출</strong>
               <ul>
                 <li>
-                  <details>
-                    <summary>🔍 학교명 추출 상세 내용 (Click)</summary>
-                    <ul>
-                      <li>
-                        <strong>정확한 포함 여부 (Substring Matching):</strong>
-                        <ul>
-                          <li>각 후보 학교명이 댓글에 포함되어 있는지 확인</li>
-                          <li>댓글에 학교명이 정확히 포함되어 있다면, 해당 학교명을 찾은 횟수만큼 리스트에 추가</li>
-                        </ul>
-                      </li>
-                      <li>
-                        <strong>유사도 기반 추출 (Fuzzy Matching):</strong>
-                        <ul>
-                          <li>정확한 매칭이 없는 경우, Levenshtein 거리를 사용하여 댓글과 후보 학교명 사이의 유사도 평가</li>
-                          <li>후보 학교명을 추출하여 리스트에 추가</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </details>
+                  <strong>정확한 포함 여부 (Substring Matching)</strong>
+                  <ul>
+                    <li>각 후보 학교명이 댓글에 포함되어 있는지 확인</li>
+                    <li>댓글에 학교명이 정확히 포함되어 있다면, 해당 학교명을 찾은 횟수만큼 리스트에 추가</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>유사도 기반 추출 (Fuzzy Matching)</strong>
+                  <ul>
+                    <li>정확한 매칭이 없는 경우, Levenshtein 거리를 사용하여 댓글과 후보 학교명 사이의 유사도 평가</li>
+                    <li>후보 학교명을 추출하여 리스트에 추가</li>
+                  </ul>
                 </li>
               </ul>
             </li>
