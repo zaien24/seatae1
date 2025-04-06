@@ -446,38 +446,6 @@
             alt="정보3" width="600">
     </li>
   </ul>
-
-   <ul>
-    <li>
-      프로젝트 소스 프로세스 <br><br>
-      <img src="https://github.com/user-attachments/assets/341771ae-045b-4819-94f2-74d3601befe5" 
-           alt="정보4" width="800"><br>
-
-    시퀀스 다이어그램 참여자 역할 설명<br>
-
-    - Client  
-      · 서버에 학교 정보 처리 요청을 보내는 외부 호출자 (예: 사용자, 테스트 실행 등)
-
-    - Server (SchoolStaticService)  
-      · 전체 로직의 중심이 되는 서비스  
-      · 학교 데이터와 댓글 데이터를 모두 수집하고 비교하며, 최종적으로 결과 파일 생성까지 담당
-
-    - Converter (SchoolConvertService)  
-      · 커리어넷 API에서 받은 학교 데이터를 ‘지역 + 학교명’ 형식으로 정제  
-      · SchoolApiDto → SchoolSchDto 변환 담당
-
-    - InfoService (SchoolApiService)  
-      · 학교유형별 API를 반복 호출하여 전체 학교 목록 데이터를 수집  
-      · 내부적으로 RestTemplate 사용
-
-    - UriBuilder (SchoolUriBuilderService)  
-      · 각 학교 유형에 맞는 API 호출 URI를 생성하는 유틸리티 서비스
-
-    - API (커리어넷 API)  
-      · 외부 공공데이터 API로, 학교 정보를 JSON 형태로 응답
-    </li>
-  </ul>
-
 </details>
 
 <br>
