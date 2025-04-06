@@ -205,8 +205,7 @@
     <li><strong>기능</strong></li>
     <ul>
       <li>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제</li>
-      <li>CSV 파일 로드 및 댓글 리스트화</li>
-      <li>댓글 데이터 정제</li>
+      <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제</li>
       <li>정제된 댓글과 학교 정보를 매칭하여 통계 생성</li>
       <li>초등학교, 중학교, 고등학교, 대학교 순으로 정렬</li>
       <li>결과 파일(result.txt) 생성</li>
@@ -232,9 +231,7 @@
         <li>학교명 형식 통일</li>
       </ul>
     </li>
-    <li><strong>CSV 파일 로드</strong> 및 댓글 리스트화</li>
-    <li>
-      <strong>댓글 데이터 정제</strong>
+    <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
       <ul>
         <li>중복된 행정구역 정보 → <strong>단일 저장 처리</strong></li>
         <li>댓글 내 중복된 학교명 → <strong>리스트화</strong> 처리</li>
