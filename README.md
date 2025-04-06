@@ -257,7 +257,6 @@
             </li>
           </ul>
         </li>
-        <li>정제된 학교 데이터의 행정구역명을 단일 리스트(Set)로 처리</li>
         <li>
           <details>
             <summary>💬 댓글 정제 상세 내용 (Click)</summary>
