@@ -233,8 +233,8 @@
             <li>ex.세종특별시 마음로 (마지막이 시/군/구가 아닐 경우 별도 처리)</li>
           </ul>
         </li>
-        <li>참고: 행정구역 현황 - <a href="https://www.laiis.go.kr/lips/mlo/wco/wholeCountryList.do"                 
-             target="_blank">https://www.laiis.go.kr/lips/mlo/wco/wholeCountryList.do</a></li>
+        <li>참고:<a href="https://www.laiis.go.kr/lips/mlo/wco/wholeCountryList.do"                 
+             target="_blank">행정구역 현황</a></li>
       </ul>
     </li>
     <li>
