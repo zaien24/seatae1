@@ -255,56 +255,57 @@
                 <li>후보 행정구역에 대해 단순 포함 여부 및 Levenshtein 거리를 기반으로 최적의 행정구역 선택</li>
               </ul>
             </li>
-          </ul>
-        </li>
-        <li>
-          <details>
-            <summary>💬 댓글 정제 상세 내용 (Click)</summary>
-            <ul>
-              <li><strong>기능:</strong> 주어진 댓글에서 후보 행정구역(예: "경남 거창")과 유사한 문자열을 추출하여 반환</li>
-              <li><strong>입력값 검증:</strong> 댓글(comment)이 null이면 "알수없음"을 반환</li>
-              <li>
-                <strong>초기값 설정:</strong> 
+            <li>
+              <details>
+                <summary>💬 댓글 정제 상세 내용 (Click)</summary>
                 <ul>
-                  <li><code>bestMatch</code>는 기본값 "알수없음"으로 설정</li>
-                  <li><code>bestScore</code>는 -1로 초기화</li>
-                </ul>
-              </li>
-              <li>
-                <strong>각 후보 행정구역 처리:</strong>
-                <ul>
-                  <li>regionSet의 각 region 문자열에 대해 반복</li>
+                  <li><strong>기능:</strong> 주어진 댓글에서 후보 행정구역(예: "경남 거창")과 유사한 문자열을 추출하여 반환</li>
+                  <li><strong>입력값 검증:</strong> 댓글(comment)이 null이면 "알수없음"을 반환</li>
                   <li>
-                    먼저, <code>region.split(" ")</code>을 사용하여 공백 기준으로 분할
+                    <strong>초기값 설정:</strong> 
                     <ul>
+                      <li><code>bestMatch</code>는 기본값 "알수없음"으로 설정</li>
+                      <li><code>bestScore</code>는 -1로 초기화</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>각 후보 행정구역 처리:</strong>
+                    <ul>
+                      <li>regionSet의 각 region 문자열에 대해 반복</li>
                       <li>
-                        분할 결과 길이가 2인 경우 (예: "경상남도 거창군"):
+                        먼저, <code>region.split(" ")</code>을 사용하여 공백 기준으로 분할
                         <ul>
-                          <li>첫 번째 부분: province (예: "경상남도")</li>
-                          <li>두 번째 부분: city (예: "거창군")</li>
-                          <li>댓글에 province와 city 모두 포함되면 해당 region을 즉시 반환</li>
-                          <li>하나만 포함되면 점수를 1로 설정하고, 이전 후보(bestScore)보다 높으면 갱신</li>
-                        </ul>
-                      </li>
-                      <li>
-                        분할 결과 길이가 2가 아닌 경우:
-                        <ul>
-                          <li>region 문자열이 댓글에 그대로 포함되면 즉시 반환</li>
-                          <li>포함되지 않으면 Levenshtein 거리를 계산하여, 거리가 3 이하이고 아직 bestScore가 갱신되지 않았다면 해당 region을 선택</li>
+                          <li>
+                            분할 결과 길이가 2인 경우 (예: "경상남도 거창군"):
+                            <ul>
+                              <li>첫 번째 부분: province (예: "경상남도")</li>
+                              <li>두 번째 부분: city (예: "거창군")</li>
+                              <li>댓글에 province와 city 모두 포함되면 해당 region을 즉시 반환</li>
+                              <li>하나만 포함되면 점수를 1로 설정하고, 이전 후보(bestScore)보다 높으면 갱신</li>
+                            </ul>
+                          </li>
+                          <li>
+                            분할 결과 길이가 2가 아닌 경우:
+                            <ul>
+                              <li>region 문자열이 댓글에 그대로 포함되면 즉시 반환</li>
+                              <li>포함되지 않으면 Levenshtein 거리를 계산하여, 거리가 3 이하이고 아직 bestScore가 갱신되지 않았다면 해당 region을 선택</li>
+                            </ul>
+                          </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
+                  <li>
+                    <strong>최종 반환:</strong> 반복 후 가장 적합한 후보인 <code>bestMatch</code> 값을 반환
+                  </li>
                 </ul>
-              </li>
-              <li>
-                <strong>최종 반환:</strong> 반복 후 가장 적합한 후보인 <code>bestMatch</code> 값을 반환
-              </li>
-            </ul>
-          </details>
+              </details>
+            </li>
+          </ul>
         </li>
-      </ul>
-    </li>
+          </ul>
+        </li>
+        
     <li>
       <strong>댓글 데이터와 학교 데이터를 비교하여 통계 생성</strong>
       <ul>
