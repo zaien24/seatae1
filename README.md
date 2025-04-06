@@ -223,7 +223,6 @@
 
   <h3>4. 개발</h3>
   <ul>
-    <li>공공데이터 기반의 <strong>학교 정보를 제공하는 API 호출</strong></li>
     <li>
       <strong>공공데이터 기반의 학교 정보를 제공하는 API 호출 데이터 정제</strong>
       <ul>
