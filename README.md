@@ -226,8 +226,15 @@
     <li>
       <strong>공공데이터 기반의 학교 정보를 제공하는 API 호출 및 결과 데이터 정제</strong>
       <ul>
-        <li>행정구역명 정리</li>
-        <li>학교명 형식 통일</li>
+        <li>행정구역명 정리 - 3단계 행정체계 적용 (도/특별시/광역시 > 시/군/구 > 읍/면/동)</li>
+        <li>도/특별시/광역시 및 시/군/구 처리 예시:
+          <ul>
+            <li>ex.경상남도 거창군 가조면 가조가야로 1087 → 경남 거창</li>
+            <li>ex.세종특별시 마음로 (마지막이 시/군/구가 아닐 경우 별도 처리)</li>
+          </ul>
+        </li>
+        <li>참고: 행정구역 현황 - <a href="https://www.laiis.go.kr/lips/mlo/wco/wholeCountryList.do"                 
+             target="_blank">https://www.laiis.go.kr/lips/mlo/wco/wholeCountryList.do</a></li>
       </ul>
     </li>
     <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
