@@ -237,10 +237,27 @@
              target="_blank">https://www.laiis.go.kr/lips/mlo/wco/wholeCountryList.do</a></li>
       </ul>
     </li>
-    <li>CSV 파일 로드 후 댓글 리스트화 및 댓글데이터 정제
+    <li>
+      <strong>CSV 파일 로드 및 댓글 데이터 정제</strong>
       <ul>
-        <li>중복된 행정구역 정보 → <strong>단일 저장 처리</strong></li>
-        <li>댓글 내 중복된 학교명 → <strong>리스트화</strong> 처리</li>
+        <li>CSV 파일 로드:
+          <ul>
+            <li>구분자에 따른 파서 사용</li>
+            <li>첫 행(헤더) 제외</li>
+            <li>시작과 끝의 큰따옴표 제거</li>
+          </ul>
+        </li>
+        <li>댓글 정제:
+          <ul>
+            <li>행정구역명 추출:
+              <ul>
+                <li>도/특별시/광역시와 시/군/구 정보를 활용하여 댓글에서 추출</li>
+                <li>후보 행정구역에 대해 단순 포함 여부 및 Levenshtein 거리(3 이하)를 기반으로 최적의 행정구역 선택</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>정제된 학교 데이터의 행정구역명 및 학교명을 단일 리스트(Set)로 처리</li>
       </ul>
     </li>
     <li>
